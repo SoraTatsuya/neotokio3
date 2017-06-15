@@ -1,0 +1,26 @@
+/*-----------------------------------------------------------------------------
+- Widget
+------------------------------------------------------------------------------*/
+.widget-area {
+  .widget {
+    margin-top: 0.8rem;
+    &:first-child {
+      margin-top: none;
+    }
+    .widget-title {
+      color: $black;
+      padding: 0.5rem;
+      border-radius: 0.4rem;
+      text-transform: uppercase;
+      border-bottom-color: $brand-secondary;
+      border-bottom-style: solid;
+      border-bottom-width: thick;
+    }
+    ul {
+      list-style-type: none;
+      li {
+        text-decoration: none;
+      }
+    }
+  }
+}

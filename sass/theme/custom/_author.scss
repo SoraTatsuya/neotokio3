@@ -1,0 +1,84 @@
+/*-----------------------------------------------------------------------------
+- Author
+------------------------------------------------------------------------------*/
+.author {
+  h1 {
+    text-align: center;
+  }
+  .author-img {
+    margin-bottom: 2rem;
+    img {
+      margin-top: 2rem;
+      height: 40% !important;
+      max-width: initial !important;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      &:hover {
+        transform: rotate(-5deg) scale(1.1);
+        transition: all 0.8s;
+      }
+    }
+    .img-team-fluid-round {
+      display: block;
+      border-radius: 50%;
+      margin-bottom: 0.2rem;
+      padding: 0.3rem;
+      border: 0.3rem solid $white;
+      &:hover {
+        border: 0.3rem solid lighten($black, 20%);
+        transition: all 0.8s;
+      }
+    }
+  }
+  .author-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-bottom-color: $brand-secondary;
+    border-bottom-style: solid;
+    border-top-color: $brand-secondary;
+    border-top-style: solid;
+    color: $white;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px lighten($brand-secondary, 20%);
+
+  }
+  .author-desc {
+
+  }
+  .author-posts {
+    .card-group {
+      margin-bottom: 2rem;
+      &:last-child {
+        margin-bottom: 0rem;
+      }
+    }
+  }
+}
+b {
+  color: #d8dae0;
+}
+
+.label-team{
+  display: inline;
+  padding: .4em .6em .4em;
+  font-size: 90%;
+  font-weight: bold;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  background-color: #d9534f;
+}
+a.label-team:hover, a.label-team:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+// .team-col ul li {
+//   text-decoration: none;
+// }

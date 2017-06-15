@@ -1,0 +1,86 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+// As example you find one of the most important Bootstrap variable below: $brand-primary.
+// Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
+// Just add your color code here, compile the theme.scss file to change this color everywhere
+
+$font-family-sans-serif:Arial, sans-serif;
+$brand-primary:         #d22662;
+$brand-primary-light:   #ed93b4;
+$brand-primary-dark:    #7c1f72;
+$brand-secondary:       #f71f77;
+$brand-secondary-light: #ed68a6;
+$brand-secondary-dark:  #9d3679;
+$brand-info:            #4aa7d1;
+$brand-danger:          #972142;
+$brand-success:         #2ecc71;
+//colors
+$brand-yellow:          #f1c40f;
+$brand-yellow-light:    #FFEB3B;
+//backgroundcolors
+$brand-gray:            #bdc3c7;
+$brand-gray-light:      #ecf0f1;
+//brand colors
+$facebook:              #3b5998;
+$twitter:               #55acee;
+$google:                #dd4b39;
+$youtube:               #bb0000;
+$linkedin:              #007bb5;
+$instagram-orange:      #e95950;
+$instagram-blue:        #125688;
+$whatsapp:              #4dc247;
+$snapchat:              #fffc00;
+$dropbox:               #007ee5;
+$tumblr:                #32506d;
+$soptify:               #00e461;
+$github:                #000000;
+$skype:                 #00C6FF;
+$stack-exchange:        #4D86C9;
+$xing:                  #026466;
+$soundcloud:            #ff7700;
+$steam-blue:            #00adee;
+$steam-black:           #000000;
+$spotify:               #1db954;
+$deviantart-green:      #05cc47;
+$deviantart-l-green:    #4dc47d;
+$deviantart-black:      #181a1b;
+$amazon:                #ff9900;
+$discord:               #7289da;
+$ebay:                  #0064d2;
+$kickstarter:           #2bde73;
+$netflix:               #e50914;
+$paypal:                #003087;
+$pinterest:             #bd081c;
+$trello:                #0079bf;
+$twitch:                #6441a5;
+$wordpress:             #21759b;
+
+//leftover nt3
+// #48354b
+// #308fb1
+// #3e4c72
+// #a84f90
+
+// //Green
+// #2ecc71 //Emerald
+// #27ae60 //Nephritis
+// #4CAF50 //Green
+// #8BC34A //light green
+// #CDDC39 //lime
+//
+// //Blue
+// #3498db //Peter River
+// #2980b9 //Belize Hole
+// #03A9F4 //Light Blue
+// #2196F3 //Blue
+// #3F51B5 //Indigo
+
+//screens
+$screen-xs: 480px !default;
+$screen-sm: 768px !default;
+$screen-md: 992px !default;
+$screen-lg: 1200px !default;
+$screen-xs-max: ($screen-sm - 1) !default;
+$screen-sm-max: ($screen-md - 1) !default;
+$screen-md-max: ($screen-lg - 1) !default;

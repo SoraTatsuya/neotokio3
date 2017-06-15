@@ -1,0 +1,74 @@
+.error {
+  position: relative;
+  background-color: $brand-gray;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem;
+  z-index: 9999;
+  text-align: center;
+  display: block;
+  max-width: 50rem;
+  min-height: 20rem;
+  margin-top: 10%;
+  border-radius: .4rem;
+  box-shadow: 0 .2rem .4rem 0 rgba(0, 0, 0, 0.2), 0 .3rem 1.2rem 0 rgba(0, 0, 0, 0.19);
+  @media screen and (max-width: $screen-md) {
+    max-width: 100%;
+  }
+  .error-title {
+    text-transform: uppercase;
+  }
+  .error-message {
+    margin-right: auto;
+    margin-left: auto;
+    p {
+      font-size: 1.1rem;
+    }
+    .text-muted {
+      font-size: .8rem;
+    }
+    a {
+      text-transform: uppercase;
+      margin-left: .8rem;
+      &:first-child {
+        margin-left: none;
+      }
+    }
+    @media screen and (max-width: $screen-xs) {
+      a {
+        margin-top: .8rem;
+        margin-left: none;
+      }
+      &:last-child {
+        margin-top: none;
+      }
+    }
+  }
+}
+
+.background-img {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  img {
+    filter: blur(.4rem) grayscale(30%) !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: -2;
+    background-size: cover;
+  }
+  // height: 100%;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+
+
+}

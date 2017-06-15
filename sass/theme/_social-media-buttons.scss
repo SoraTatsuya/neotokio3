@@ -1,0 +1,180 @@
+.socialright {
+  ul {
+	   float:right;
+  }
+}
+.social {
+  margin: 0;
+  padding: 0;
+  ul {
+    margin-top: 0;
+    padding: 1em;
+    text-align: center;
+    li {
+      margin-right: 1em;
+      list-style: none outside none;
+      display: inline-block;
+    	margin-left: auto;
+    	margin-right: auto;
+      margin-bottom: 0.5em;
+    }
+  }
+  i {
+    margin-right:0.3em;
+	  width: 1.9em;
+    height: 1.7em;
+    color: #d8dae0;
+    background-color: $brand-secondary-dark;
+    font-size: 1.5em;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    &:hover {
+      color: #d8dae0;
+      text-decoration: none;
+      transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      -ms-transition: all ease 0.3s;
+    }
+  }
+  .fa-facebook {
+      &:hover {
+        background: $facebook;
+      }
+  }
+  .fa-twitter {
+    &:hover {
+      background: $twitter;
+    }
+  }
+  .fa-google-plus {
+    &:hover {
+      background: $google;
+    }
+  }
+  .fa-github {
+    &:hover {
+      background: $github;
+    }
+  }
+  .fa-pinterest {
+    &:hover {
+      background: $pinterest;
+    }
+  }
+  .fa-linkedin {
+    &:hover {
+      background: $linkedin;
+    }
+  }
+  .fa-flickr {
+    &:hover {
+      background: #FF57AE;
+    }
+  }
+  .fa-instagram {
+    &:hover {
+      background: $instagram-blue;
+    }
+  }
+  .fa-vimeo-square {
+    &:hover {
+      background: #83DAEB;
+    }
+  }
+  .fa-stack-overflow {
+    &:hover {
+      background: #FEA501;
+    }
+  }
+  .fa-dropbox {
+    &:hover {
+      background: $dropbox;
+    }
+  }
+  .fa-tumblr {
+    &:hover {
+      background: $tumblr;
+    }
+  }
+  .fa-dribbble {
+    &:hover {
+      background: #F46899;
+    }
+  }
+  .fa-skype {
+    &:hover {
+      background: $skype;
+    }
+  }
+  .fa-stack-exchange {
+    &:hover {
+      background: $stack-exchange;
+    }
+  }
+  .fa-youtube {
+    &:hover {
+      background: $youtube;
+    }
+  }
+  .fa-xing {
+    &:hover {
+      background: $xing;
+    }
+  }
+  .fa-rss {
+    &:hover {
+      background: #e88845;
+    }
+  }
+  .fa-foursquare {
+    &:hover {
+      background: #09B9E0;
+    }
+  }
+  .fa-youtube-play {
+    &:hover {
+      background: $youtube;
+    }
+  }
+  .fa-soundcloud {
+    &:hover {
+      background: $soundcloud;
+    }
+  }
+  .fa-steam {
+    &:hover {
+      background: $steam-blue;
+    }
+  }
+  .fa-spotify {
+    &:hover {
+      background: $spotify;
+    }
+  }
+  .fa-deviantart {
+    &:hover {
+      background: $deviantart-green;
+    }
+  }
+  .fa-twitch {
+    &:hover {
+      background: $twitch;
+    }
+  }
+  .fa-wordpress {
+    &:hover {
+      background: $wordpress;
+    }
+  }
+}

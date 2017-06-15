@@ -1,0 +1,50 @@
+/*-----------------------------------------------------------------------------
+- Footer
+------------------------------------------------------------------------------*/
+#wrapper-footer {
+  .container {
+    color: $brand-gray-light;
+    background-color: $brand-primary-dark;
+    padding: 0.8rem;
+    border-bottom-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+  }
+  .container-fluid {
+    color: $brand-gray-light;
+    background-color: $brand-primary-dark;
+    padding: 0.8rem;
+  }
+}
+
+#wrapper-home-footer {
+  .container {
+    color: $white;
+    margin-top: -3rem;
+
+  }
+  .container-fluid {}
+}
+.home-footer {
+  margin-left: auto;
+  margin-right: auto;
+  .home-info {
+    text-align: center;
+    & a {
+      color: $brand-primary;
+    }
+  }
+}
+
+#wrapper-content-footer {
+  z-index: 9999;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: $black;
+  padding: .6rem;
+  // box-shadow:
+  .container {}
+  .container-fluid {}
+}

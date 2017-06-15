@@ -1,0 +1,43 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+/*-----------------------------------------------------------------------------
+- Wrapper
+------------------------------------------------------------------------------*/
+.wrapper {
+  background-color: $black;
+}
+
+@import "custom/header";
+@import "custom/footer";
+@import "custom/card";
+@import "custom/widget";
+@import "custom/author";
+@import "custom/http-error";
+
+/*-----------------------------------------------------------------------------
+- Footer Widget
+------------------------------------------------------------------------------*/
+// #wrapper-footer-full {
+//   background-color: lighten($brand-gray, 5%);
+// }
+// .footer-widget {
+//   margin-top: 0.4rem;
+//   .widget-title {
+//     color: $black;
+//     padding: 0.5rem;
+//     border-radius: 0.4rem;
+//     text-transform: uppercase;
+//     border-bottom-color: $brand-secondary;
+//     border-bottom-style: solid;
+//     border-bottom-width: thick;
+//   }
+//   .textwidget {}
+// }
+
+
+/*-----------------------------------------------------------------------------
+- navbar adjustment for 404 page
+------------------------------------------------------------------------------*/
+.navbar {
+  z-index: 9999 !important;
+}
